@@ -1,0 +1,281 @@
+{
+  "r32_1": {
+    "teams": [
+      "Germany",
+      "Paraguay"
+    ],
+    "score": "1 - 0",
+    "winner": "Germany",
+    "next_match": "r16_1"
+  },
+  "r32_2": {
+    "teams": [
+      "France",
+      "Sweden"
+    ],
+    "score": "2 - 0",
+    "winner": "France",
+    "next_match": "r16_1"
+  },
+  "r32_3": {
+    "teams": [
+      "South Africa",
+      "Canada"
+    ],
+    "score": "0 - 1",
+    "winner": "Canada",
+    "next_match": "r16_2"
+  },
+  "r32_4": {
+    "teams": [
+      "Netherlands",
+      "Morocco"
+    ],
+    "score": "2 - 0",
+    "winner": "Netherlands",
+    "next_match": "r16_2"
+  },
+  "r32_5": {
+    "teams": [
+      "Portugal",
+      "Croatia"
+    ],
+    "score": "2 - 1",
+    "winner": "Portugal",
+    "next_match": "r16_3"
+  },
+  "r32_6": {
+    "teams": [
+      "Spain",
+      "Austria"
+    ],
+    "score": "3 - 0",
+    "winner": "Spain",
+    "next_match": "r16_3"
+  },
+  "r32_7": {
+    "teams": [
+      "United States",
+      "Bosnia and Herzegovina"
+    ],
+    "score": "0 - 2",
+    "winner": "Bosnia and Herzegovina",
+    "next_match": "r16_4"
+  },
+  "r32_8": {
+    "teams": [
+      "Belgium",
+      "Senegal"
+    ],
+    "score": "2 - 1",
+    "winner": "Belgium",
+    "next_match": "r16_4"
+  },
+  "r32_9": {
+    "teams": [
+      "Brazil",
+      "Japan"
+    ],
+    "score": "0 - 0 (3 - 5)",
+    "winner": "Japan",
+    "next_match": "r16_5"
+  },
+  "r32_10": {
+    "teams": [
+      "Ivory Coast",
+      "Norway"
+    ],
+    "score": "2 - 3",
+    "winner": "Norway",
+    "next_match": "r16_5"
+  },
+  "r32_11": {
+    "teams": [
+      "Mexico",
+      "Ecuador"
+    ],
+    "score": "2 - 1",
+    "winner": "Mexico",
+    "next_match": "r16_6"
+  },
+  "r32_12": {
+    "teams": [
+      "England",
+      "DR Congo"
+    ],
+    "score": "0 - 1",
+    "winner": "DR Congo",
+    "next_match": "r16_6"
+  },
+  "r32_13": {
+    "teams": [
+      "Argentina",
+      "Cape Verde"
+    ],
+    "score": "2 - 1",
+    "winner": "Argentina",
+    "next_match": "r16_7"
+  },
+  "r32_14": {
+    "teams": [
+      "Australia",
+      "Egypt"
+    ],
+    "score": "5 - 0",
+    "winner": "Australia",
+    "next_match": "r16_7"
+  },
+  "r32_15": {
+    "teams": [
+      "Switzerland",
+      "Algeria"
+    ],
+    "score": "3 - 2",
+    "winner": "Switzerland",
+    "next_match": "r16_8"
+  },
+  "r32_16": {
+    "teams": [
+      "Colombia",
+      "Ghana"
+    ],
+    "score": "1 - 0",
+    "winner": "Colombia",
+    "next_match": "r16_8"
+  },
+  "r16_1": {
+    "teams": [
+      "Germany",
+      "France"
+    ],
+    "score": "1 - 2",
+    "winner": "France",
+    "next_match": "Q_1"
+  },
+  "r16_2": {
+    "teams": [
+      "Canada",
+      "Netherlands"
+    ],
+    "score": "2 - 1",
+    "winner": "Canada",
+    "next_match": "Q_1"
+  },
+  "r16_3": {
+    "teams": [
+      "Portugal",
+      "Spain"
+    ],
+    "score": "0 - 5",
+    "winner": "Spain",
+    "next_match": "Q_2"
+  },
+  "r16_4": {
+    "teams": [
+      "Bosnia and Herzegovina",
+      "Belgium"
+    ],
+    "score": "0 - 4",
+    "winner": "Belgium",
+    "next_match": "Q_2"
+  },
+  "r16_5": {
+    "teams": [
+      "Japan",
+      "Norway"
+    ],
+    "score": "2 - 1",
+    "winner": "Japan",
+    "next_match": "Q_3"
+  },
+  "r16_6": {
+    "teams": [
+      "Mexico",
+      "DR Congo"
+    ],
+    "score": "3 - 2",
+    "winner": "Mexico",
+    "next_match": "Q_3"
+  },
+  "r16_7": {
+    "teams": [
+      "Argentina",
+      "Australia"
+    ],
+    "score": "2 - 0",
+    "winner": "Argentina",
+    "next_match": "Q_4"
+  },
+  "r16_8": {
+    "teams": [
+      "Switzerland",
+      "Colombia"
+    ],
+    "score": "3 - 3 (4 - 3)",
+    "winner": "Switzerland",
+    "next_match": "Q_4"
+  },
+  "Q_1": {
+    "teams": [
+      "France",
+      "Canada"
+    ],
+    "score": "5 - 2",
+    "winner": "France",
+    "next_match": "SF_1"
+  },
+  "Q_2": {
+    "teams": [
+      "Spain",
+      "Belgium"
+    ],
+    "score": "2 - 2 (3 - 4)",
+    "winner": "Belgium",
+    "next_match": "SF_1"
+  },
+  "Q_3": {
+    "teams": [
+      "Japan",
+      "Mexico"
+    ],
+    "score": "1 - 1 (4 - 3)",
+    "winner": "Japan",
+    "next_match": "SF_2"
+  },
+  "Q_4": {
+    "teams": [
+      "Argentina",
+      "Switzerland"
+    ],
+    "score": "0 - 1",
+    "winner": "Switzerland",
+    "next_match": "SF_2"
+  },
+  "SF_1": {
+    "teams": [
+      "France",
+      "Belgium"
+    ],
+    "score": "2 - 2 (5 - 6)",
+    "winner": "Belgium",
+    "next_match": "F"
+  },
+  "SF_2": {
+    "teams": [
+      "Japan",
+      "Switzerland"
+    ],
+    "score": "0 - 0 (4 - 5)",
+    "winner": "Switzerland",
+    "next_match": "F"
+  },
+  "F": {
+    "teams": [
+      "Belgium",
+      "Switzerland"
+    ],
+    "score": "5 - 5 (4 - 5)",
+    "winner": "Switzerland",
+    "next_match": null
+  }
+}
