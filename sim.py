@@ -1,8 +1,9 @@
 import json
 import numpy as np
+import copy
 
 with open("initial.json","r") as f:
-    matches = json.load(f)
+    initial_matches = json.load(f)
 
 with open("elos.json","r") as f:
     elos = json.load(f)
@@ -36,6 +37,7 @@ def get_winner(t1,t2):
 
 def simulate():
 
+    matches = copy.deepcopy(initial_matches)
     rounds = ["r32","r16","Q","SF","F"]
     for round in rounds:
 
