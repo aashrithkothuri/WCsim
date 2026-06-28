@@ -11,7 +11,7 @@
   },
   "r32_3": {
     "teams": ["South Africa", "Canada"],
-    "winner": null,
+    "winner": "Canada",
     "next_match": "r16_2"
   },
   "r32_4": {
@@ -86,7 +86,7 @@
     "next_match": "Q_1"
   },
   "r16_2": {
-    "teams": [],
+    "teams": ["Canada"],
     "winner": null,
     "next_match": "Q_1"
   },
