@@ -31,10 +31,10 @@ def get_penalty_winner(t1,t2):
             converted2 += 1
 
         if 5-taken + converted1 < converted2:
-            return t2
+            return t2, f"{converted1} - {converted2}"
         
         if 5-taken + converted2 < converted1:
-            return t1
+            return t1,f"{converted1} - {converted2}"
         
     # Sudden death
     while True:
@@ -45,13 +45,12 @@ def get_penalty_winner(t1,t2):
             converted2 += 1
 
         if converted1 > converted2:
-            return t1
+            return t1,f"{converted1} - {converted2}"
         elif converted1 < converted2:
-            return t2
+            return t2,f"{converted1} - {converted2}"
 
 def get_winner(t1,t2):
 
-        
     elo1 = elos[t1]
     elo2 = elos[t2]
 
@@ -69,11 +68,12 @@ def get_winner(t1,t2):
     goals2 = np.random.poisson(rate2)
 
     if goals1 > goals2:
-        return t1
+        return t1,f"{goals1} - {goals2}"
     elif goals1 < goals2:
-        return t2
+        return t2,f"{goals1} - {goals2}"
     else: 
-        return get_penalty_winner(t1,t2)
+        pen_winner, pen_score = get_penalty_winner(t1,t2)
+        return pen_winner,f"{goals1} - {goals2} ({pen_score})"
 
 def simulate():
 
@@ -94,9 +94,10 @@ def simulate():
                 team1 = matches[match]["teams"][0]
                 team2 = matches[match]["teams"][1]
 
-                winner = get_winner(team1,team2)
+                winner, score = get_winner(team1,team2)
 
                 matches[match]["winner"] = winner
+                matches[match]["score"] = score
 
                 if round != "F": # Final does not have a next match
                     next_match = matches[match]["next_match"]

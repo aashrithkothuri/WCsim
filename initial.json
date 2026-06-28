@@ -1,160 +1,191 @@
 {
   "r32_1": {
     "teams": ["Germany", "Paraguay"],
+    "score": null,
     "winner": null,
     "next_match": "r16_1"
   },
   "r32_2": {
     "teams": ["France", "Sweden"],
+    "score": null,
     "winner": null,
     "next_match": "r16_1"
   },
   "r32_3": {
     "teams": ["South Africa", "Canada"],
+    "score": "0 - 1",
     "winner": "Canada",
     "next_match": "r16_2"
   },
   "r32_4": {
     "teams": ["Netherlands", "Morocco"],
+    "score": null,
     "winner": null,
     "next_match": "r16_2"
   },
   "r32_5": {
     "teams": ["Portugal", "Croatia"],
+    "score": null,
     "winner": null,
     "next_match": "r16_3"
   },
   "r32_6": {
     "teams": ["Spain", "Austria"],
+    "score": null,
     "winner": null,
     "next_match": "r16_3"
   },
   "r32_7": {
     "teams": ["United States", "Bosnia and Herzegovina"],
+    "score": null,
     "winner": null,
     "next_match": "r16_4"
   },
   "r32_8": {
     "teams": ["Belgium", "Senegal"],
+    "score": null,
     "winner": null,
     "next_match": "r16_4"
   },
   "r32_9": {
     "teams": ["Brazil", "Japan"],
+    "score": null,
     "winner": null,
     "next_match": "r16_5"
   },
   "r32_10": {
     "teams": ["Ivory Coast", "Norway"],
+    "score": null,
     "winner": null,
     "next_match": "r16_5"
   },
   "r32_11": {
     "teams": ["Mexico", "Ecuador"],
+    "score": null,
     "winner": null,
     "next_match": "r16_6"
   },
   "r32_12": {
     "teams": ["England", "DR Congo"],
+    "score": null,
     "winner": null,
     "next_match": "r16_6"
   },
   "r32_13": {
     "teams": ["Argentina", "Cape Verde"],
+    "score": null,
     "winner": null,
     "next_match": "r16_7"
   },
   "r32_14": {
     "teams": ["Australia", "Egypt"],
+    "score": null,
     "winner": null,
     "next_match": "r16_7"
   },
   "r32_15": {
     "teams": ["Switzerland", "Algeria"],
+    "score": null,
     "winner": null,
     "next_match": "r16_8"
   },
   "r32_16": {
     "teams": ["Colombia", "Ghana"],
+    "score": null,
     "winner": null,
     "next_match": "r16_8"
   },
 
   "r16_1": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_1"
   },
   "r16_2": {
     "teams": ["Canada"],
+    "score": null,
     "winner": null,
     "next_match": "Q_1"
   },
   "r16_3": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_2"
   },
   "r16_4": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_2"
   },
   "r16_5": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_3"
   },
   "r16_6": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_3"
   },
   "r16_7": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_4"
   },
   "r16_8": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "Q_4"
   },
 
   "Q_1": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "SF_1"
   },
   "Q_2": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "SF_1"
   },
   "Q_3": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "SF_2"
   },
   "Q_4": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "SF_2"
   },
 
   "SF_1": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "F"
   },
   "SF_2": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": "F"
   },
 
   "F": {
     "teams": [],
+    "score": null,
     "winner": null,
     "next_match": null
   }

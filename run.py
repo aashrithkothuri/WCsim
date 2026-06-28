@@ -1,4 +1,5 @@
 from sim import simulate
+import json
 
 winners = {
   "Germany": 0,
@@ -42,12 +43,12 @@ winners = {
   "Ghana": 0
 }
 
-for _ in range(10000):
+winner = ""
+c = 0
+while winner != "Switzerland":
     result = simulate()
-    print(_)
-
     winner = result["F"]["winner"]
+    c+=1
+    print(c)
 
-    winners[winner] += 1
-
-print(winners)
+print(json.dumps(result, indent=2))
