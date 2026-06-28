@@ -1,13 +1,15 @@
 import json
 import numpy as np
 
+with open("initial.json","r") as f:
+    matches = json.load(f)
 
+with open("elos.json","r") as f:
+    elos = json.load(f)
 
 # No valid implementation for now
 def get_winner(t1,t2):
 
-    with open("elos.json","r") as f:
-        elos = json.load(f)
         
     elo1 = elos[t1]
     elo2 = elos[t2]
@@ -34,9 +36,6 @@ def get_winner(t1,t2):
 
 def simulate():
 
-    with open("initial.json","r") as f:
-        matches = json.load(f)
-
     rounds = ["r32","r16","Q","SF","F"]
     for round in rounds:
 
@@ -62,6 +61,4 @@ def simulate():
                     matches[next_match]["teams"].append(winner)
 
     return matches
-
-print(simulate())
 
