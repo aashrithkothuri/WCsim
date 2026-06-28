@@ -1,0 +1,161 @@
+{
+  "r32_1": {
+    "teams": ["Germany", "Paraguay"],
+    "winner": null,
+    "next_match": "r16_1"
+  },
+  "r32_2": {
+    "teams": ["France", "Sweden"],
+    "winner": null,
+    "next_match": "r16_1"
+  },
+  "r32_3": {
+    "teams": ["South Africa", "Canada"],
+    "winner": null,
+    "next_match": "r16_2"
+  },
+  "r32_4": {
+    "teams": ["Netherlands", "Morocco"],
+    "winner": null,
+    "next_match": "r16_2"
+  },
+  "r32_5": {
+    "teams": ["Portugal", "Croatia"],
+    "winner": null,
+    "next_match": "r16_3"
+  },
+  "r32_6": {
+    "teams": ["Spain", "Austria"],
+    "winner": null,
+    "next_match": "r16_3"
+  },
+  "r32_7": {
+    "teams": ["United States", "Bosnia and Herzegovina"],
+    "winner": null,
+    "next_match": "r16_4"
+  },
+  "r32_8": {
+    "teams": ["Belgium", "Senegal"],
+    "winner": null,
+    "next_match": "r16_4"
+  },
+  "r32_9": {
+    "teams": ["Brazil", "Japan"],
+    "winner": null,
+    "next_match": "r16_5"
+  },
+  "r32_10": {
+    "teams": ["Ivory Coast", "Norway"],
+    "winner": null,
+    "next_match": "r16_5"
+  },
+  "r32_11": {
+    "teams": ["Mexico", "Ecuador"],
+    "winner": null,
+    "next_match": "r16_6"
+  },
+  "r32_12": {
+    "teams": ["England", "DR Congo"],
+    "winner": null,
+    "next_match": "r16_6"
+  },
+  "r32_13": {
+    "teams": ["Argentina", "Cape Verde"],
+    "winner": null,
+    "next_match": "r16_7"
+  },
+  "r32_14": {
+    "teams": ["Australia", "Egypt"],
+    "winner": null,
+    "next_match": "r16_7"
+  },
+  "r32_15": {
+    "teams": ["Switzerland", "Algeria"],
+    "winner": null,
+    "next_match": "r16_8"
+  },
+  "r32_16": {
+    "teams": ["Colombia", "Ghana"],
+    "winner": null,
+    "next_match": "r16_8"
+  },
+
+  "r16_1": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_1"
+  },
+  "r16_2": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_1"
+  },
+  "r16_3": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_2"
+  },
+  "r16_4": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_2"
+  },
+  "r16_5": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_3"
+  },
+  "r16_6": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_3"
+  },
+  "r16_7": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_4"
+  },
+  "r16_8": {
+    "teams": [],
+    "winner": null,
+    "next_match": "Q_4"
+  },
+
+  "Q_1": {
+    "teams": [],
+    "winner": null,
+    "next_match": "SF_1"
+  },
+  "Q_2": {
+    "teams": [],
+    "winner": null,
+    "next_match": "SF_1"
+  },
+  "Q_3": {
+    "teams": [],
+    "winner": null,
+    "next_match": "SF_2"
+  },
+  "Q_4": {
+    "teams": [],
+    "winner": null,
+    "next_match": "SF_2"
+  },
+
+  "SF_1": {
+    "teams": [],
+    "winner": null,
+    "next_match": "F"
+  },
+  "SF_2": {
+    "teams": [],
+    "winner": null,
+    "next_match": "F"
+  },
+
+  "F": {
+    "teams": [],
+    "winner": null,
+    "next_match": null
+  }
+}
