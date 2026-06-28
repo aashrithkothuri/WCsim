@@ -1,14 +1,14 @@
 import json
 import numpy as np
 
-with open("initial.json","r") as f:
-    matches = json.load(f)
 
-with open("elos.json","r") as f:
-    elos = json.load(f)
 
 # No valid implementation for now
 def get_winner(t1,t2):
+
+    with open("elos.json","r") as f:
+        elos = json.load(f)
+        
     elo1 = elos[t1]
     elo2 = elos[t2]
 
@@ -32,29 +32,36 @@ def get_winner(t1,t2):
     else: # 50-50 chance if it goes to pens
         return str(np.random.choice([t1,t2]))
 
-rounds = ["r32","r16","Q","SF","F"]
-for round in rounds:
+def simulate():
 
-    for match in matches.keys():
+    with open("initial.json","r") as f:
+        matches = json.load(f)
 
-        if match.startswith(round):
-            
-            # Gets winner, updates current match with winner 
-            # then adds winning team to next match
+    rounds = ["r32","r16","Q","SF","F"]
+    for round in rounds:
 
-            if matches[match]["winner"] is not None:
-                continue
+        for match in matches.keys():
 
-            team1 = matches[match]["teams"][0]
-            team2 = matches[match]["teams"][1]
+            if match.startswith(round):
+                
+                # Gets winner, updates current match with winner 
+                # then adds winning team to next match
 
-            winner = get_winner(team1,team2)
+                if matches[match]["winner"] is not None:
+                    continue
 
-            matches[match]["winner"] = winner
+                team1 = matches[match]["teams"][0]
+                team2 = matches[match]["teams"][1]
 
-            if round != "F": # Final does not have a next match
-                next_match = matches[match]["next_match"]
-                matches[next_match]["teams"].append(winner)
+                winner = get_winner(team1,team2)
 
+                matches[match]["winner"] = winner
 
-print(matches)
+                if round != "F": # Final does not have a next match
+                    next_match = matches[match]["next_match"]
+                    matches[next_match]["teams"].append(winner)
+
+    return matches
+
+print(simulate())
+
